@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    Give Pet to us!
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index2.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <form class="form">
+      <h3>Your First Name : </h3>
+      <input type="text" name="fname" class="fname" required>
+      <h3>Your Last Name : </h3>
+      <input type="text" name="last" class="lname" required>
+      <h3> Your Contact Number : </h3>
+      <input type="text" name="last" class="contact" required>
+      <h3>Dog Breed : </h3>
+      <input type="text" name="breed" class="breed" required>
+      <h3>Image of Pet :</h3>
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile01" required>
+      </div>
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" required>
+        <option selected>Type of Dog</option>
+        <option value="1">Lost and Found</option>
+        <option value="2">Pet</option>
+        <option value="3">other</option>
+      </select>
+
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" id="submit" onclick="SubmitForm()">Button</button>
+      </div>
+    </form>
+
+  </div>
+  <script src="index2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+</html>

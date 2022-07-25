@@ -1,0 +1,231 @@
+#navbut{
+  margin-top: 0;
+}
+
+
+/*box-1 css*/
+.box1{
+  background-image: url("3.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1600px 700px;
+  background-position:  center 50px;
+  
+ 
+  
+}
+
+.title{
+  padding-top: 10%;
+  
+  color: black;
+  text-align: center;
+}
+.title2{
+ 
+  
+  color: black;
+  text-align: center;
+}
+#btnbtn {
+ margin-left: 45%;
+ margin-top: 5%;
+}
+.title-2{
+ 
+  margin-top: 1%;
+}
+
+.pets{
+  display: table;
+}
+
+
+/*box 2 css*/
+
+h1,h2{
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  h1{
+    margin-top:20px;
+  }
+  
+  h2{
+    margin-top:30px;
+  }
+  
+  #randomImageContainer, #listImageContainer{
+    width:100%;
+    min-height: 300px;
+    margin-top: 2%;
+  }
+  
+  #randomImageContainer{
+    background-color:#fff;
+  }
+  
+  button{
+    margin-top:30px;
+    text-align:center;
+  }
+  
+  .alert{
+    display:none;
+  }
+  
+  img{
+    max-height:300px;
+  }
+  
+  #listImageContainer{
+    margin-top:30px;
+  }
+  
+  #doggoDropDown{
+    padding:2px;
+  }
+  
+  #dogInfo{
+    text-align:center;
+    
+  }
+  
+  .form-control{
+    font-size:1.2em;
+  }
+  
+  .container-fluid{
+    background:#c3dbe7;
+    margin-top:5px;
+    
+  }
+  
+  .container-fluid:last-of-type{
+    background:#fff;
+    
+  }
+  
+  .container, .card-deck{
+    margin-top:30px;
+  }
+#adopted{
+   margin-top: 15px;
+}
+#showmore{
+   margin-bottom: 10px;
+}
+  
+/*footer css*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+ @media screen and (min-width: 1024px){
+  .box1{
+    background-size: 1600px 700px;
+  }
+  .title{
+     
+      padding-top: 10%;
+      color: rgb(24, 164, 240)
+  }
+  .title2{
+      margin-top: 2%;
+      color: rgb(240, 15, 150)
+  }
+  #btnbtn{
+     margin-left: 45%;
+     margin-top: 5%;
+  }
+
+ }
+
+
+ @media screen and (min-width:768px) and (max-width:1023px){
+  .box1{
+    background-size: 1050px 700px;
+  }
+  .title{
+     
+      padding-top: 18%;
+      color: rgb(24, 164, 240)
+  }
+  .title2{
+      margin-top: 2%;
+      color: rgb(240, 15, 150)
+  }
+  #btnbtn{
+     margin-left: 43%;
+     margin-top: 10%;
+  }
+
+ }
+  
+  @media screen and (max-width: 767px) {
+.box1{
+  background-size: 800px 700px;
+}
+.title{
+   
+    padding-top: 24%;
+    color: rgb(24, 164, 240)
+}
+.title2{
+    margin-top: 2%;
+    color: rgb(240, 15, 150)
+}
+#btnbtn{
+   margin-left: 40%;
+   margin-top: 10%;
+}
+  }
+
+  @media screen and (max-width: 414px) {
+    .box1{
+      background-size: 450px 700px;
+    }
+    .title{
+       
+        padding-top: 40%;
+        color: rgb(24, 164, 240)
+    }
+    .title2{
+        margin-top: 5%;
+        color: rgb(240, 15, 150)
+    }
+    #btnbtn{
+       margin-left: 35%;
+       margin-top: 15%;
+    }
+  }
